@@ -1,3 +1,22 @@
+## devcontainer Requirements
+
+This repository will give you a rich development environment inside
+VSCode (or any other application that supports .devcontainer, e.g.
+https://code.visualstudio.com/docs/remote/devcontainer-cli)
+
+You need a "recent" version of Docker running.
+
+Once opening this repository, VSCode will ask to reconnect to it,
+inside the container. You can start a terminal in the usual way.
+
+Inside, there is already provisioned:
+- Ruby 3
+- PostgreSQL ("latest"), including command line tools
+- Redis ("latest"), including command line tools
+
+The original README.md follows
+
+---
 ## Installation Requirements
 
 This client assumes you're using Ruby 2.6 or later.
